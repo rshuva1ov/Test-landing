@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Landing</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a class="logo header__logo">
+                    <img src="img/Logo.svg" alt="Test Logo">
+                </a>
+                <div class="header-wrapper">
+                    <a href="#" class="header__customers" aria-label="customers">Клиентам</a>
+                    <a href="#" id="myBtn" class="header__login" aria-label="Go to cabinet">Войти</a>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h2 class="modal__title">Авторизация</h2>
+                            <form class="modal__form">
+                                <ul class="modal__list">
+                                    <li class="modal__item">
+                                        <p class="modal__descr">E-mail</p>
+                                        <input class="modal__input" name="email" type="email" placeholder="Введите e-mail" data-validate-field="mail">
+                                    </li>
+                                    <li class="modal__item">
+                                        <p class="modal__descr">Пароль</p>
+                                        <input class="modal__input" name="password" type="password" placeholder="Введите пароль" data-validate-field="name">
+                                    </li>
+                                </ul>
+                                <button type="submit" class="modal__btn">Войти</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero__title">
+                        Подбор авто в лизинг по выгодной цене
+                    </h1>
+                    <p class="hero__descr">
+                        IT платформа по быстрому поиску автомобиля от официальных дилеров РФ
+                    </p>
+                    <button class="btn hero-btn">Регистрация</button>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <h2 class="advantages__title">
+                    Меньше условий – больше возможностей
+                </h2>
+                <ul class="advantages__list list-reset">
+                    <li class="advantages__item item-time">
+                        <h3 class="advantages__subtitle">Экономия времени</h3>
+                        <p class="advantages__descr">
+                            Дополнительный канал потенциальных клиентов, готовых приобрести автомобиль, без затрат на рекламу и маркетинг.
+                        </p>
+                    </li>
+                    <li class="advantages__item item-speed">
+                        <h3 class="advantages__subtitle">Никаких задержек</h3>
+                        <p class="advantages__descr">
+                            Вы получаете запросы сразу же после отправки клиентом.
+                        </p>
+                    </li>
+                    <li class="advantages__item item-information">
+                        <h3 class="advantages__subtitle">Максимальная информативность</h3>
+                        <p class="advantages__descr">
+                            В каждой заявке указан регион поиска, марка и модель авто, а так же  индивидуальные запросы клиента.
+                        </p>
+                    </li>
+                    <li class="advantages__item item-chat">
+                        <h3 class="advantages__subtitle">Удобство общения</h3>
+                        <p class="advantages__descr">
+                            Для каждого запроса у вас открыт чат с клиентом с возможностью отправки документов.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="registration">
+            <div class="container">
+                <div class="registration-content">
+                    <h2 class="registration__title">Регистрируйся и получай актуальные запросы на автомобили от заинтерисованных клиентов</h2>
+                    <button class="btn registration-btn">Регистрация</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
